@@ -1,3 +1,2 @@
-2025/09/03-15:22:26.926 2ea4 Reusing MANIFEST C:\workspace_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
-2025/09/03-15:22:26.926 2ea4 Recovering log #3
-2025/09/03-15:22:26.927 2ea4 Reusing old log C:\workspace_java\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/000003.log 
+2025/09/03-18:31:35.047 2e3c Creating DB C:\kdt-java-2025\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State since it was missing.
+2025/09/03-18:31:35.054 2e3c Reusing MANIFEST C:\kdt-java-2025\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension State/MANIFEST-000001
