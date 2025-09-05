@@ -18,10 +18,41 @@ public class 실습_4_2_배열생성최대값 {
 		 * 
 		 */
 		
+		// 최댓값만 구해서 출력하면 된다. 
+		
+		
 		//new int [5];
-		int[] arr = new int[5];
-		arr[0] = 49;
+		int[] price = { 49, 91, 87, 67, 73 };
+		int max = price[0];
+  		for(int i = 1 ; i < price.length ; i++) {
+  			if (max < price[i]) max = price[i];
+  		}
 		
+//  		System.out.print("[");
+//  		for(int p : price) {
+//  			System.out.print(p + ","); //[49,91,87,67,73,] 마지막 73옆의 , 삭제해야 함
+//  		}
+//  		System.out.println("]");
+//  		
+//  		System.out.println("최대값 = " + max);
+  		
+//    }
+    	//[49,91,87,67,73,] 마지막 73옆의 , 삭제해야 함
+  		int cnt = 0;
+  		System.out.print("[");
+		for(int p : price) {
+			System.out.print(p); 
+			
+			if(++cnt < price.length)
+			//if(price.length > ++cnt) 윗 줄과 같다. 취향차이	
+				System.out.print(",");
+		}
+		System.out.println("]");
 		
-    }
+		System.out.println("최대값 = " + max);
+}
+	
+	
+	
+	
 }
