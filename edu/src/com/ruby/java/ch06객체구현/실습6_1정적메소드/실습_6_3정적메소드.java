@@ -1,22 +1,41 @@
 package com.ruby.java.ch06객체구현.실습6_1정적메소드;
 class Student {
 	// 필드
+	
 	/*
 	 * name, age, subjects[], scores[], passFail[], count를 private으로 선언
 	 * count는 배열의  index로 사용
 	 *  numberStudents를 정적 필드로 선언
 	 */
+	
+	
 	// 생성자
 	/*name, age, subjects[], scores[], passFail[], count를 매개변수로 전달받는 생성자 정의
 	 * 
 	 */
-
+	
+	super();
+	this.name = name;
+	this.age = age;
+	this.subjects = subjects;
+	this.scores = scores;
+	this.passFail = pathFail;
+	this.count = count;
+	
+	
+	
+	
 	// setter 메소드: setName(String name), setAge(int age),  setSubjects(String subjects[]), setScores(int scores[]), setCount(int num)
 
+	
+	
 	// 학생 수를 반환하는 정적 메소드getNumberStudents()
 
+	
+	
 	// 학생 정보를 출력하는 메소드 (예시용)
 	public void printStudent() {
+		System.out.println("학생 정보 출력:" + name);
 		/*
 		 * 이름 = **, 나이 = **
 		 * 과목1 = **, 점수1 = **
@@ -38,11 +57,13 @@ class Student {
 	// 통과 여부 (모든 과목을 통과했는지 확인)
 	public boolean isPassed() {
 		//주어진 학생이 모든 과목 통여 여부를 반환 
+		
 	}
 
 	// 6.2.2 각 학생의 성적 테이블을 출력하는 정적 메소드
 	public static void printAllStudents(Student[] students) {
 		//학생 이름 + 과목명, 과목 점수 .... + 과목통과여부:pass or fail
+		
 	}
 
 	// 6.2.2 과목별 최대/최소 점수 및 해당 학생을 출력하는 정적 메소드
