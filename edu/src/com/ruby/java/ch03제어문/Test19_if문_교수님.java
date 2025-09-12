@@ -2,7 +2,7 @@ package com.ruby.java.ch03제어문;
 
 import java.util.Scanner;
 
-public class Test19_if문 {
+public class Test19_if문_교수님 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		

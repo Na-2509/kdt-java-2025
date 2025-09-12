@@ -14,12 +14,13 @@ package com.ruby.java.ch03제어문;
 
 
 
-public class Test18 {
+public class Test18_Annotation {
 
 	/*
 	 *  @param a 합의 첫번째 변수
 	 *  @param b 합의 두번째 변수
 	 *  @param a+b 결과를 반환
+	 *  @param 은 매개변수에 대한 설명을 의미하는 javadoc 설명주석이고, 컴파일러(JVM)에게 전달되는 메타데이터
 	 */
 	
 	

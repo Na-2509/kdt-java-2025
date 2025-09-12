@@ -4,6 +4,8 @@ public class 실습_2_1정수타입연산출력 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+	
 		// 정수형 변수 선언 및 초기화
 
 		/*
@@ -41,13 +43,20 @@ public class 실습_2_1정수타입연산출력 {
 
 		*/
 
-		System.out.println("덧셈 = " + sum + "\n");
+//		System.out.println("덧셈 = " + sum + "\n");
+//		System.out.println("뺄셈 = " + difference + "\n");
+//		System.out.println("곱셈 = " + product + "\n");
+//		System.out.println("나눗셈 = " + quotient + "\n");
+		
+		System.out.println("덧셈 = " + sum);
 		System.out.println("뺄셈 = " + difference + "\n");
-		System.out.println("곱셈 = " + product + "\n");
+		System.out.println("곱셈 = " + product);
 		System.out.println("나눗셈 = " + quotient + "\n");
 		
 		
 		
 	}
-
+ 
+	
+	
 }

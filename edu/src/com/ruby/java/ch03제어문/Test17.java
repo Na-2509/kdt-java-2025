@@ -20,11 +20,26 @@ public class Test17 {
 		 * 
 		 * 코드 자동 완성: ctrl + space키
 		 */
+		
+/*
 		System.out.println();
 		int sum = 0;
 		for (int i = 0; i < 10; i++) {
 			sum += i;
 		}
+*/
+		
+		//교재 p.97
+		
+		System.out.println("사과");
+		System.out.println("포도");
+		System.out.println("바나나");
+		System.out.println("복숭아");
+		System.out.println("수박");
+		
+		
+		
+		
 	}
 
 }
