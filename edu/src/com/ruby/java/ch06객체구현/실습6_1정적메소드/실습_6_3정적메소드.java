@@ -1,4 +1,6 @@
 package com.ruby.java.ch06객체구현.실습6_1정적메소드;
+
+
 class Student {
 	// 필드
 	

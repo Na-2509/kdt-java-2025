@@ -8,6 +8,9 @@ package com.ruby.java.ch06객체구현;
  * JVM 입장에서는 public 클래스가 하나도 없어도 .class 파일만 정상적으로 존재한다면 
  * 전혀 문제가 되지 않는다
  */
+
+
+
 class Student2 {
 //public class Student2 {
 	int a;

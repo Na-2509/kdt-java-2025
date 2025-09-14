@@ -12,8 +12,6 @@ package com.ruby.java.ch03제어문;
  */
 
 
-
-
 public class Test18_Annotation {
 
 	/*
