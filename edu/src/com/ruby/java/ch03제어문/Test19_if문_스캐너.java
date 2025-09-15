@@ -83,10 +83,12 @@ public class Test19_if문_스캐너 {
 		 */
 
 		
+		
+		
 		int fare = 0;
 		if (weight < 1000) {
 			fare = 3000;}
-		else if (1000 < weight && weight < 5000) {
+		else if (1000 < weight && weight < 5000) {pnu71
 			fare = 5000;}
 		else if (5000 < weight && weight < 10000) {
 			fare = 8000;}
